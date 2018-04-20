@@ -209,25 +209,14 @@ textarea {
 }
 
 .contactcontainer {
-    width: 960px;
-    margin: 0 auto 0;
     position: relative;
 }
 
 .contactform {
-    width: 65%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-bottom: 20px;
 }
 
 .contactbuttons {
-    width: 31%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 30px auto 0;
-    /* padding-left: 30px; */
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -244,7 +233,7 @@ textarea {
     border-bottom-style: solid;
     border-bottom-color: #ccc;
     border-bottom-width: 1px;
-    padding-bottom: 3%;
+    padding-bottom: 5px;
     text-align: center;
     width: 80%;
     margin: 0px auto;
@@ -252,7 +241,7 @@ textarea {
 
 .socialnetworks{
     text-align: center;
-    margin: 10% 0 5%;
+    margin: 15px 0 10px;
 }
 
 #copyright {
@@ -294,8 +283,14 @@ p {
 }
 
 @media only screen and (min-width: 800px) {
+
     article {
         width: 90%;
+    }
+
+    .contactbuttons {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
@@ -344,5 +339,31 @@ p {
         right: 0;
         padding-top: 30px;
         font-size: 18px;
+    }
+
+    .contactcontainer {
+        width: 960px;
+        margin: auto;
+    }
+
+    .contactform {
+        position: absolute;
+        width: 65%;
+        left: 0;
+    }
+
+    .contactbuttons {
+        width: 30%;
+        position: absolute;
+        right: 0;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-height: 712px) and (min-width: 1280px) {
+    .content {
+        flex: none;
+        height: 648px;
+
     }
 }
