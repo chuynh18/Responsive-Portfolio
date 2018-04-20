@@ -384,10 +384,12 @@ p {
     }
 }
 
-@media only screen and (max-height: 712px) and (min-width: 1280px) {
+/* dirty hack to make the footer not get overlapped by the contact form */
+
+@media only screen and (max-height: 720px) and (min-width: 1280px) {
     .content {
         flex: none;
-        height: 648px;
+        height: 660px;
 
     }
 }
