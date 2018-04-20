@@ -1,0 +1,136 @@
+/* this file contains only CSS for contact.html */
+
+.textbox, textarea {
+    min-width: 96.5%;
+    max-width: 96.5%;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em 0.7em;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+textarea {
+    height: 10em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submitbutton {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 3%;
+}
+
+.contactcontainer {
+    position: relative;
+}
+
+.contactform {
+    margin-bottom: 20px;
+}
+
+.contactbuttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb;
+    background-color: #eee;
+}
+
+.contactbuttonstext {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.socialnetworks{
+    text-align: center;
+    margin: 15px 0 10px;
+}
+
+.wiki {
+    margin: 10px 20px;
+}
+
+/* responsive CSS for larger phones, tablets, and desktop - for contact.html*/
+
+@media only screen and (min-width: 320px) {
+    .wiki {
+        margin: 20px 10%;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    .wiki {
+        margin: 25px 13%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .wiki {
+        margin: 30px 15%;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    .wiki {
+        margin: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .wiki {
+        margin: 0 3%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wiki {
+        margin: 0px;
+    }
+
+    .contactcontainer {
+        width: 960px;
+        margin: auto;
+    }
+
+    .contactform {
+        position: absolute;
+        width: 65%;
+        left: 0;
+    }
+
+    .contactbuttons {
+        width: 32%;
+        position: absolute;
+        right: 0;
+        margin-top: 30px;
+    }
+}
+
+/* dirty hack to make the footer not get overlapped by the contact form */
+
+@media only screen and (max-height: 720px) and (min-width: 1280px) {
+    .content {
+        flex: none;
+        height: 660px;
+
+    }
+}
