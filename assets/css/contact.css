@@ -85,13 +85,13 @@ textarea {
 
 @media only screen and (min-width: 400px) {
     .wiki {
-        margin: 30px 15%;
+        margin: 33px 15%;
     }
 }
 
 @media only screen and (min-width: 460px) {
     .wiki {
-        margin: 0 5%;
+        margin: 0 4%;
     }
 }
 
