@@ -130,6 +130,7 @@ footer {
 .aboutmetext {
     position: relative;
     clear: both;
+    padding-bottom: 1em;
 }
 
 a:link, a:visited {
