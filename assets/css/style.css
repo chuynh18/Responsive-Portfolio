@@ -28,13 +28,13 @@ header {
     border-bottom-style: solid;
     border-bottom-color: #bbb;
     border-bottom-width: 2px;
-    height: 85px;
+    height: 120px;
     overflow: hidden;
     text-align: center;
 }
 
 nav {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 article {
@@ -273,6 +273,10 @@ p {
         width: 300px;
     }
 
+    nav {
+        font-size: 24px;
+    }
+
 }
 
 @media only screen and (min-width: 450px) {
@@ -280,6 +284,10 @@ p {
     #catpic {
         height: 375px;
         width: 375px;
+    }
+
+    nav {
+        font-size: 32px;
     }
 
 }
@@ -291,6 +299,10 @@ p {
 }
 
 @media only screen and (min-width: 1280px) {
+
+    header {
+        height: 85px;
+    }
 
     article {width: 960px}
 
@@ -330,5 +342,6 @@ p {
         position: absolute;
         right: 0;
         padding-top: 30px;
+        font-size: 18px;
     }
 }
