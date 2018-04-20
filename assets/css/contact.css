@@ -96,7 +96,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .wiki {
         margin: 0 3%;
     }
@@ -107,7 +107,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 980px) {
     .wiki {
         margin: 0px;
     }
@@ -155,10 +155,10 @@ textarea {
 
 /* dirty hack to make the footer not get overlapped by the contact form */
 
-@media only screen and (max-height: 720px) and (min-width: 1280px) {
+@media only screen and (max-height: 720px) and (min-width: 980px) {
     .content {
         flex: none;
-        height: 660px;
+        height: 640px;
 
     }
 }
