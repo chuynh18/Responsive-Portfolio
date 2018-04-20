@@ -36,9 +36,10 @@ textarea {
     margin-bottom: 20px;
 }
 
-.contactbuttons {
+.contactpanel {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     background-color: white;
     border-style: solid;
     border-width: 1px;
@@ -46,7 +47,7 @@ textarea {
     background-color: #eee;
 }
 
-.contactbuttonstext {
+.contacttext {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     font-weight: bold;
@@ -100,9 +101,9 @@ textarea {
         margin: 0 3%;
     }
 
-    .contactbuttons {
+    .contactpanel {
         width: 97%;
-        margin: auto;
+        margin: 0 auto 20px;
     }
 }
 
@@ -122,11 +123,11 @@ textarea {
         left: 0;
     }
 
-    .contactbuttons {
+    .contactpanel {
         width: 32%;
         position: absolute;
         right: 0;
-        margin-top: 30px;
+        margin: 30px 0 0;
     }
 
     textarea {
