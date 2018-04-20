@@ -126,7 +126,7 @@ article {
 }
 
 p {
-    line-height: 2em;
+    line-height: 1.5em;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -210,5 +210,9 @@ end mobile-first CSS */
         right: 0;
         padding-top: 30px;
         font-size: 18px;
+    }
+
+    p {
+        line-height: 1.7em;
     }
 }
