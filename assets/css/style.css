@@ -5,6 +5,7 @@ see contact.css for code specific to contact.html
 see portfolio.css for code specific to portfolio.html */
 
 /* Begin mobile-first CSS */
+
 * {
     /* make it so browsers don't make my page look ugly with their default styling */
     margin: 0;
