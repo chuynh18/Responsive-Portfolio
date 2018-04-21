@@ -1,10 +1,15 @@
 /* this file contains only CSS for portfolio.html */
 
-.portfolioitem {
-    float: left;
-    margin: 0 1% 15px 3%;
-    position: relative;
+/* makes it so that the portfolio items are centered */
+.portfoliocontainer {
     text-align: center;
+}
+
+.portfolioitem {
+    display: inline-block;
+    margin: 0 4% 15px;
+    /* setting position relative with no additional parameters so I can set the portfolio text items to position: absolute; */
+    position: relative;
 }
 
 .portfoliotext {
@@ -33,8 +38,17 @@
     border-radius: 3%;
 }
 
+/* makes the portfolio box contain the project images
+otherwise, it'd terminate right after the text "Portfolio" */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+@media only screen and (min-width: 980px) {
+    .portfolioitem {
+        float: left;
+        margin: 0 1% 15px 3%;
+    }
 }
