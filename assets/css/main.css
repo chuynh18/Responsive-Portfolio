@@ -16,14 +16,14 @@
 
 /* responsive CSS for larger phones, tablets, and desktop */
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 640px) {
     #catpic {
         height: 300px;
         width: 300px;
     }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 768px) {
     #catpic {
         height: 375px;
         width: 375px;
@@ -31,13 +31,14 @@
     }
 }
 
-@media only screen and (min-width: 650px) {
+/* Okay, 460 px is probably overkill */
+/* @media only screen and (min-width: 650px) {
     #catpic {
         height: 460px;
         width: 460px;
         margin-bottom: 20px;
     }
-}
+} */
 
 @media only screen and (min-width: 980px) {
     #catpic {

@@ -46,7 +46,7 @@ header {
     border-bottom-style: solid;
     border-bottom-color: #bbb;
     border-bottom-width: 2px;
-    height: 120px;
+    height: 100px;
     overflow: hidden;
     text-align: center;
     background-color: #eee;
@@ -165,6 +165,10 @@ end mobile-first CSS */
 }
 
 @media only screen and (min-width: 350px) {
+    header {
+        height: 110px;
+    }
+
     nav {
         font-size: 24px;
     }
@@ -181,9 +185,13 @@ end mobile-first CSS */
     }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 640px) {
     nav {
         font-size: 32px;
+    }
+
+    header{
+        height: 120px;
     }
 }
 
@@ -199,7 +207,7 @@ end mobile-first CSS */
     }
 
     header {
-        height: 85px;
+        height: 80px;
     }
 
     article {width: 960px}
