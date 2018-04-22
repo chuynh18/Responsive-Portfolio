@@ -26,6 +26,7 @@ textarea {
     border-style: solid;
     border-width: 1px;
     margin-left: 3%;
+    text-shadow: 2px 2px #333;
 }
 
 .contactcontainer {
