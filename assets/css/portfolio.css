@@ -37,6 +37,7 @@
 
 .portfolioimage {
     border-radius: 3%;
+    width: 274px;
 }
 
 /* makes the portfolio box contain the project images
@@ -47,10 +48,141 @@ otherwise, it'd terminate right after the text "Portfolio" */
     display: table;
 }
 
+/* super hacky fixed widths media queries lololol */
+@media only screen and (min-width: 400px) {
+    .portfoliotext {
+        width: 350px;
+    }
+
+    .portfolioimage {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .portfoliotext {
+        width: 400px;
+    }
+
+    .portfolioimage {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .portfoliotext {
+        width: 420px;
+    }
+
+    .portfolioimage {
+        width: 420px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .portfoliotext {
+        width: 450px;
+    }
+
+    .portfolioimage {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .portfoliotext {
+        width: 500px;
+    }
+
+    .portfolioimage {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .portfoliotext {
+        width: 250px;
+    }
+
+    .portfolioimage {
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .portfoliotext {
+        width: 270px;
+    }
+
+    .portfolioimage {
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .portfoliotext {
+        width: 300px;
+    }
+
+    .portfolioimage {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .portfoliotext {
+        width: 315px;
+    }
+
+    .portfolioimage {
+        width: 315px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .portfoliotext {
+        width: 330px;
+    }
+
+    .portfolioimage {
+        width: 330px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .portfoliotext {
+        width: 350px;
+    }
+
+    .portfolioimage {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .portfoliotext {
+        width: 370px;
+    }
+
+    .portfolioimage {
+        width: 370px;
+    }
+}
+
+
+
 /* make it so that each row has 3 icons when viewed at desktop resolution */
 @media only screen and (min-width: 980px) {
     .portfolioitem {
         float: left;
         margin: 0 1% 15px 3%;
+    }
+
+    .portfoliotext {
+        width: 274px;
+    }
+
+    .portfolioimage {
+        width: 274px;
     }
 }
