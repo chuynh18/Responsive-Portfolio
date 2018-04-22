@@ -1,6 +1,6 @@
 /* this file contains only CSS for portfolio.html */
 
-/* makes it so that the portfolio items are centered */
+/* makes it so that the portfolio items are centered for phones and tablets */
 .portfoliocontainer {
     text-align: center;
 }
@@ -27,7 +27,7 @@
 
 .portfolioitem:hover .portfolioimage {
     opacity: 0.6;
-  }
+}
 
 .portfolioitem:hover .portfoliotext {
     background-color: #35dad1;
@@ -47,6 +47,7 @@ otherwise, it'd terminate right after the text "Portfolio" */
     display: table;
 }
 
+/* make it so that each row has 3 icons when viewed at desktop resolution */
 @media only screen and (min-width: 980px) {
     .portfolioitem {
         float: left;
