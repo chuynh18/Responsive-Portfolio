@@ -32,6 +32,7 @@
 .portfolioitem:hover .portfoliotext {
     background-color: #35dad1;
     font-size: 20px;
+    text-shadow: 2px 2px #333;
 }
 
 .portfolioimage {

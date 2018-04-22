@@ -59,6 +59,7 @@ textarea {
     text-align: center;
     width: 80%;
     margin: 0px auto;
+    text-shadow: 2px 2px #ccc;
 }
 
 .socialnetworks{
