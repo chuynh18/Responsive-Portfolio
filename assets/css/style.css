@@ -86,6 +86,23 @@ nav {
     color: #4aaaa5;
 }
 
+.georgiafont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-shadow: 2px 2px #333;
+}
+
+.currentpage {
+    text-shadow: 2px 2px #ccc;
+}
+
 /* end header CSS */
 /* CSS relevant for the main content portion of every page */
 
@@ -100,18 +117,6 @@ article {
     background-color: #eee;
 }
 
-.georgiafont {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: #fff;
-    font-weight: bold;
-    font-size: 32px;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin: auto;
-}
-
 .georgiafontinverse {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -124,6 +129,7 @@ article {
     border-bottom-color: #ccc;
     padding-bottom: 15px;
     text-align: center;
+    text-shadow: 2px 2px #ccc;
 }
 
 p {
