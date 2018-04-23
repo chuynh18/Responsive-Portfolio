@@ -15,7 +15,7 @@
 .portfoliotext {
     color: #fff;
     background-color: #4aaaa5;
-    width: 274px;
+    width: 100%;
     height: 2.5em;
     padding: 0.5em 0 0 0;
     margin: 0;
@@ -37,7 +37,8 @@
 
 .portfolioimage {
     border-radius: 3%;
-    width: 274px;
+    width: 100%;
+    height: auto;
 }
 
 /* makes the portfolio box contain the project images
@@ -49,55 +50,6 @@ otherwise, it'd terminate right after the text "Portfolio" */
 }
 
 /* super hacky fixed widths media queries lololol */
-@media only screen and (min-width: 400px) {
-    .portfoliotext {
-        width: 350px;
-    }
-
-    .portfolioimage {
-        width: 350px;
-    }
-}
-
-@media only screen and (min-width: 450px) {
-    .portfoliotext {
-        width: 400px;
-    }
-
-    .portfolioimage {
-        width: 400px;
-    }
-}
-
-@media only screen and (min-width: 500px) {
-    .portfoliotext {
-        width: 420px;
-    }
-
-    .portfolioimage {
-        width: 420px;
-    }
-}
-
-@media only screen and (min-width: 550px) {
-    .portfoliotext {
-        width: 450px;
-    }
-
-    .portfolioimage {
-        width: 450px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .portfoliotext {
-        width: 500px;
-    }
-
-    .portfolioimage {
-        width: 500px;
-    }
-}
 
 @media only screen and (min-width: 640px) {
     .portfoliotext {
@@ -167,7 +119,7 @@ otherwise, it'd terminate right after the text "Portfolio" */
     .portfolioimage {
         width: 370px;
     }
-}
+} 
 
 
 
