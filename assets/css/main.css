@@ -1,5 +1,22 @@
 /* this file contains only CSS for index.html */
 
+.blockall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 36pt;
+    position: relative;
+    height: 100%;
+    transform: translateY(50%);
+}
+
 #catpic {
     border-radius: 3%;
     display: block;
