@@ -14,15 +14,16 @@ window.onload = function() {
             targets: '#welcome1',
             translateY: ["40%", "45%"],
             opacity: [0,1,1,0],
-            duration: 2500,
+            duration: 2200,
             easing: "linear"
         })
         .add({
             targets: '#welcome2',
             translateY: ["40%", "45%"],
-            opacity: [0,1,1,0],
-            duration: 3000,
-            easing: "linear"
+            opacity: [0,1,1,1,0],
+            duration: 2500,
+            easing: "linear",
+            offset: '-=1000',
         })
         .add({
             targets: '#blockall',
