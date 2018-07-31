@@ -6,7 +6,7 @@ window.onload = function() {
         .add({
             targets: '#welcome',
             translateY: ["45%", "50%"],
-            opacity: 100,
+            opacity: [0,1],
             duration: 1200,
             easing: "linear"
         })
@@ -18,7 +18,7 @@ window.onload = function() {
             easing: "linear"
         })
         .add({
-            targets: '.blockall',
+            targets: '#blockall',
             opacity: 0,
             duration: 1500,
             easing: "linear"
@@ -28,5 +28,8 @@ window.onload = function() {
             translateY: ["40%", "0%"],
             duration: 1700,
             offset: '-=1500',
+            complete: function() {
+                document.getElementById("blockall").style.display = "none";
+            }
         });
 }

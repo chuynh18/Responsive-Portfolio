@@ -1,6 +1,6 @@
 /* this file contains only CSS for index.html */
 
-.blockall {
+#blockall {
     position: fixed;
     top: 0;
     left: 0;
