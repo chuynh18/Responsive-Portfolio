@@ -10,11 +10,13 @@
     text-align: center;
 }
 
-#welcome {
+.welcome {
     font-size: 36pt;
-    position: relative;
+    position: absolute;
     height: 100%;
+    width: 100%;
     transform: translateY(50%);
+    opacity: 0;
 }
 
 #catpic {

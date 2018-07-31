@@ -4,32 +4,41 @@ window.onload = function() {
 
     anime.timeline()
         .add({
-            targets: '#welcome',
-            translateY: ["45%", "50%"],
-            opacity: [0,1],
-            duration: 1200,
+            targets: '#welcome0',
+            translateY: ["40%", "45%"],
+            opacity: [0,1,1,0],
+            duration: 2000,
             easing: "linear"
         })
         .add({
-            targets: '#welcome',
-            translateY: ["50%", "55%"],
-            opacity: 0,
-            duration: 1200,
+            targets: '#welcome1',
+            translateY: ["40%", "45%"],
+            opacity: [0,1,1,0],
+            duration: 2500,
+            easing: "linear"
+        })
+        .add({
+            targets: '#welcome2',
+            translateY: ["40%", "45%"],
+            opacity: [0,1,1,0],
+            duration: 3000,
             easing: "linear"
         })
         .add({
             targets: '#blockall',
             opacity: 0,
             duration: 1500,
-            easing: "linear"
-        })
-        .add({
-            targets: '.content',
-            translateY: ["40%", "0%"],
-            duration: 1700,
-            offset: '-=1500',
+            easing: "linear",
             complete: function() {
                 document.getElementById("blockall").style.display = "none";
             }
+        })
+        .add({
+            targets: '.content',
+            translateY: ["70%", "0%"],
+            duration: 500,
+            offset: '-=1500',
+            easing: "easeInCubic",
+            elasticity: 200
         });
 }
