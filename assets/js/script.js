@@ -16,7 +16,7 @@ window.onload = function() {
             opacity: [0,1,1,0],
             duration: 2200,
             easing: "linear",
-            offset: '-=400',
+            offset: '-=420',
         })
         .add({
             targets: '#welcome2',
@@ -24,7 +24,7 @@ window.onload = function() {
             opacity: [0,1,1,1,0],
             duration: 2500,
             easing: "linear",
-            offset: '-=400',
+            offset: '-=420',
         })
         .add({
             targets: '#blockall',
