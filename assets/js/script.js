@@ -37,9 +37,9 @@ window.onload = function() {
         })
         .add({
             targets: '.content',
-            translateY: ["70%", "40%", "20%", "10%", "5%", "0%"],
-            duration: 1200,
-            offset: '-=1670',
+            translateY: ["80%", "40%", "20%", "10%", "0%"],
+            duration: 1400,
+            offset: '-=1770',
             easing: "linear"
         });
 }
