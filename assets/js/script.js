@@ -37,10 +37,9 @@ window.onload = function() {
         })
         .add({
             targets: '.content',
-            translateY: ["70%", "0%"],
-            duration: 500,
-            offset: '-=1500',
-            easing: "easeInCubic",
-            elasticity: 200
+            translateY: ["70%", "40%", "20%", "10%", "5%", "0%"],
+            duration: 1200,
+            offset: '-=2000',
+            easing: "linear"
         });
 }
